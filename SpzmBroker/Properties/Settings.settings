@@ -1,0 +1,57 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FDM_GA_Program.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DatasetFilePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\GDBCup\Spring2017\DataSets\Dataset 2015 4 months - 5 Min.csv</Value>
+    </Setting>
+    <Setting Name="FormatFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Program Files\AmiBroker\Formats\wizard.format</Value>
+    </Setting>
+    <Setting Name="ProgramFolderPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Program Files\AmiBroker\GA Results</Value>
+    </Setting>
+    <Setting Name="DatabaseFolderPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\\Program Files\AmiBroker\Data</Value>
+    </Setting>
+    <Setting Name="MaxRules" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="PopulationSize" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="TradeType" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="Generations" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="ProfitFilterMin" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="Stop" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="PosSize" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="StartDate" Type="System.String" Scope="User">
+      <Value Profile="(Default)">2017-01-01</Value>
+    </Setting>
+    <Setting Name="EndDate" Type="System.String" Scope="User">
+      <Value Profile="(Default)">2017-04-26</Value>
+    </Setting>
+    <Setting Name="kairi" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="PR" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="KF" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ITrend" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

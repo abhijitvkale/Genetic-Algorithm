@@ -1,0 +1,86 @@
+\\Mac\Home\Documents\Visual Studio 2015\Projects\SpzmBroker\SpzmBroker\obj\Debug\SpzmBroker.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Visual Studio 2015\Projects\SpzmBroker\SpzmBroker\obj\Debug\MainWindow.g.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\SpzmBroker\SpzmBroker\obj\Debug\App.g.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\SpzmBroker\SpzmBroker\bin\Debug\Analysis_Sample.txt
+\\Mac\Home\Documents\Visual Studio 2015\Projects\SpzmBroker\SpzmBroker\obj\Debug\MainWindow.baml
+\\Mac\Home\Documents\Visual Studio 2015\Projects\SpzmBroker\SpzmBroker\obj\Debug\SpzmBroker.Properties.Resources.resources
+\\Mac\Home\Documents\Visual Studio 2015\Projects\SpzmBroker\SpzmBroker\obj\Debug\SpzmBroker.csproj.GenerateResource.Cache
+\\Mac\Home\Documents\Visual Studio 2015\Projects\SpzmBroker\SpzmBroker\bin\Debug\SpzmBroker.exe.config
+\\Mac\Home\Documents\Visual Studio 2015\Projects\SpzmBroker\SpzmBroker\bin\Debug\SpzmBroker.exe
+\\Mac\Home\Documents\Visual Studio 2015\Projects\SpzmBroker\SpzmBroker\bin\Debug\SpzmBroker.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\SpzmBroker\SpzmBroker\obj\Debug\SpzmBroker_MarkupCompile.cache
+\\Mac\Home\Documents\Visual Studio 2015\Projects\SpzmBroker\SpzmBroker\obj\Debug\SpzmBroker_MarkupCompile.lref
+\\Mac\Home\Documents\Visual Studio 2015\Projects\SpzmBroker\SpzmBroker\obj\Debug\SpzmBroker.g.resources
+\\Mac\Home\Documents\Visual Studio 2015\Projects\SpzmBroker\SpzmBroker\obj\Debug\SpzmBroker.exe
+\\Mac\Home\Documents\Visual Studio 2015\Projects\SpzmBroker\SpzmBroker\obj\Debug\SpzmBroker.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\SpzmBroker\SpzmBroker\obj\Debug\SpzmBroker_Content.g.cs
+\\Mac\Home\Desktop\SpzmBroker\SpzmBroker\bin\Debug\SpzmBroker.exe.config
+\\Mac\Home\Desktop\SpzmBroker\SpzmBroker\obj\Debug\SpzmBroker.exe
+\\Mac\Home\Desktop\SpzmBroker\SpzmBroker\obj\Debug\SpzmBroker.pdb
+\\Mac\Home\Desktop\SpzmBroker_v1.7.2\SpzmBroker\bin\Debug\SpzmBroker.exe.config
+\\Mac\Home\Desktop\SpzmBroker_v1.7.2\SpzmBroker\obj\Debug\SpzmBroker.exe
+\\Mac\Home\Desktop\SpzmBroker_v1.7.2\SpzmBroker\obj\Debug\SpzmBroker.pdb
+\\Mac\Home\Desktop\SpzmBroker_v1.7.2\SpzmBroker\obj\Debug\SpzmBroker.csprojResolveAssemblyReference.cache
+\\Mac\Home\Desktop\SpzmBroker_v1.7.2\SpzmBroker\obj\Debug\MainWindow.g.cs
+\\Mac\Home\Desktop\SpzmBroker_v1.7.2\SpzmBroker\obj\Debug\App.g.cs
+\\Mac\Home\Desktop\SpzmBroker_v1.7.2\SpzmBroker\obj\Debug\SpzmBroker_Content.g.cs
+\\Mac\Home\Desktop\SpzmBroker_v1.7.2\SpzmBroker\obj\Debug\SpzmBroker_MarkupCompile.cache
+\\Mac\Home\Desktop\SpzmBroker_v1.7.2\SpzmBroker\obj\Debug\SpzmBroker_MarkupCompile.lref
+\\Mac\Home\Desktop\SpzmBroker_v1.7.2\SpzmBroker\bin\Debug\Analysis_Sample.txt
+\\Mac\Home\Desktop\SpzmBroker_v1.7.2\SpzmBroker\bin\Debug\SpzmBroker.exe
+\\Mac\Home\Desktop\SpzmBroker_v1.7.2\SpzmBroker\bin\Debug\SpzmBroker.pdb
+\\Mac\Home\Desktop\SpzmBroker_v1.7.2\SpzmBroker\obj\Debug\MainWindow.baml
+\\Mac\Home\Desktop\SpzmBroker_v1.7.2\SpzmBroker\obj\Debug\SpzmBroker.g.resources
+\\Mac\Home\Desktop\SpzmBroker_v1.7.2\SpzmBroker\obj\Debug\SpzmBroker.Properties.Resources.resources
+\\Mac\Home\Desktop\SpzmBroker_v1.7.2\SpzmBroker\obj\Debug\SpzmBroker.csproj.GenerateResource.Cache
+\\Mac\Home\Documents\Visual Studio 2015\Projects\SpzmBroker\SpzmBroker\obj\Debug\App.baml
+C:\GDBCup\Spring2016\GA Project\SpzmBroker_v1.8.0\SpzmBroker\bin\Debug\Analysis_Sample.txt
+C:\GDBCup\Spring2016\GA Project\SpzmBroker_v1.8.0\SpzmBroker\bin\Debug\SpzmBroker.exe.config
+C:\GDBCup\Spring2016\GA Project\SpzmBroker_v1.8.0\SpzmBroker\bin\Debug\SpzmBroker.exe
+C:\GDBCup\Spring2016\GA Project\SpzmBroker_v1.8.0\SpzmBroker\bin\Debug\SpzmBroker.pdb
+C:\GDBCup\Spring2016\GA Project\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\MainWindow.g.cs
+C:\GDBCup\Spring2016\GA Project\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\App.g.cs
+C:\GDBCup\Spring2016\GA Project\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\SpzmBroker_Content.g.cs
+C:\GDBCup\Spring2016\GA Project\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\SpzmBroker_MarkupCompile.cache
+C:\GDBCup\Spring2016\GA Project\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\SpzmBroker_MarkupCompile.lref
+C:\GDBCup\Spring2016\GA Project\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\App.baml
+C:\GDBCup\Spring2016\GA Project\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\MainWindow.baml
+C:\GDBCup\Spring2016\GA Project\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\SpzmBroker.g.resources
+C:\GDBCup\Spring2016\GA Project\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\SpzmBroker.Properties.Resources.resources
+C:\GDBCup\Spring2016\GA Project\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\SpzmBroker.csproj.GenerateResource.Cache
+C:\GDBCup\Spring2016\GA Project\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\SpzmBroker.exe
+C:\GDBCup\Spring2016\GA Project\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\SpzmBroker.pdb
+C:\GDBCup\Spring2016\GA Project\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\SpzmBroker.csprojResolveAssemblyReference.cache
+C:\GDBCup\Spring2017\GA Project\SpzmBroker_v1.8.0\SpzmBroker\bin\Debug\Analysis_Sample.txt
+C:\GDBCup\Spring2017\GA Project\SpzmBroker_v1.8.0\SpzmBroker\bin\Debug\SpzmBroker.exe.config
+C:\GDBCup\Spring2017\GA Project\SpzmBroker_v1.8.0\SpzmBroker\bin\Debug\SpzmBroker.exe
+C:\GDBCup\Spring2017\GA Project\SpzmBroker_v1.8.0\SpzmBroker\bin\Debug\SpzmBroker.pdb
+C:\GDBCup\Spring2017\GA Project\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\MainWindow.g.cs
+C:\GDBCup\Spring2017\GA Project\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\App.g.cs
+C:\GDBCup\Spring2017\GA Project\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\SpzmBroker_Content.g.cs
+C:\GDBCup\Spring2017\GA Project\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\SpzmBroker_MarkupCompile.cache
+C:\GDBCup\Spring2017\GA Project\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\SpzmBroker_MarkupCompile.lref
+C:\GDBCup\Spring2017\GA Project\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\App.baml
+C:\GDBCup\Spring2017\GA Project\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\MainWindow.baml
+C:\GDBCup\Spring2017\GA Project\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\SpzmBroker.g.resources
+C:\GDBCup\Spring2017\GA Project\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\SpzmBroker.Properties.Resources.resources
+C:\GDBCup\Spring2017\GA Project\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\SpzmBroker.csproj.GenerateResource.Cache
+C:\GDBCup\Spring2017\GA Project\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\SpzmBroker.exe
+C:\GDBCup\Spring2017\GA Project\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\SpzmBroker.pdb
+C:\Users\karth\Documents\Visual Studio 2013\Projects\SpzmBroker_v1.8.0\SpzmBroker\bin\Debug\SpzmBroker.exe.config
+C:\Users\karth\Documents\Visual Studio 2013\Projects\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\SpzmBroker.exe
+C:\Users\karth\Documents\Visual Studio 2013\Projects\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\SpzmBroker.pdb
+C:\Users\karth\Documents\Visual Studio 2013\Projects\SpzmBroker_v1.8.0\SpzmBroker\bin\Debug\Analysis_Sample.txt
+C:\Users\karth\Documents\Visual Studio 2013\Projects\SpzmBroker_v1.8.0\SpzmBroker\bin\Debug\SpzmBroker.exe
+C:\Users\karth\Documents\Visual Studio 2013\Projects\SpzmBroker_v1.8.0\SpzmBroker\bin\Debug\SpzmBroker.pdb
+C:\Users\karth\Documents\Visual Studio 2013\Projects\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\SpzmBroker.csprojResolveAssemblyReference.cache
+C:\Users\karth\Documents\Visual Studio 2013\Projects\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\MainWindow.g.cs
+C:\Users\karth\Documents\Visual Studio 2013\Projects\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\App.g.cs
+C:\Users\karth\Documents\Visual Studio 2013\Projects\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\SpzmBroker_Content.g.cs
+C:\Users\karth\Documents\Visual Studio 2013\Projects\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\SpzmBroker_MarkupCompile.cache
+C:\Users\karth\Documents\Visual Studio 2013\Projects\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\SpzmBroker_MarkupCompile.lref
+C:\Users\karth\Documents\Visual Studio 2013\Projects\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\App.baml
+C:\Users\karth\Documents\Visual Studio 2013\Projects\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\MainWindow.baml
+C:\Users\karth\Documents\Visual Studio 2013\Projects\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\SpzmBroker.g.resources
+C:\Users\karth\Documents\Visual Studio 2013\Projects\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\SpzmBroker.Properties.Resources.resources
+C:\Users\karth\Documents\Visual Studio 2013\Projects\SpzmBroker_v1.8.0\SpzmBroker\obj\Debug\SpzmBroker.csproj.GenerateResource.Cache

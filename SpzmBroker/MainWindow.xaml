@@ -1,0 +1,105 @@
+﻿<Window x:Class="FDM_GA_Program.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FDM_GA_Program"
+        mc:Ignorable="d"
+        
+        Title="SpzmBroker" MaxHeight="627.5" Height="627.5"  MaxWidth="1032.216" Width="1032.216" Icon="images/SpzmBroker.ico" Background="#FF3C3C3C">
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="b2v"/>
+    </Window.Resources>
+    <TabControl TabStripPlacement="Left" VerticalAlignment="Stretch" BorderThickness="0">
+        <TabItem >
+            <TabItem.Header>
+                <StackPanel Orientation="Vertical">
+                    <Image Height="40" Width="40" Source="images/home.png"/>
+                    <TextBlock Text="Home"/>
+                </StackPanel>
+            </TabItem.Header>
+            <Grid Margin="2,0,-2,0" >
+                <TextBlock x:Name="txtDisplay"  Text="{Binding Results}" FontSize="22" Foreground="Black" FontFamily="Segoe UI Light" HorizontalAlignment="Right" Height="48" Margin="0,523,355,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="524" Background="#FFFBFBFB" TextAlignment="Left" RenderTransformOrigin="0.471,-1.542"/>
+                <Label x:Name="lblDatabaseFolderPicker" Content="Database:" HorizontalContentAlignment="Right" HorizontalAlignment="Right" Height="40" Margin="0,39,596,0" VerticalAlignment="Top" Width="100" FontSize="20" FontFamily="Segoe UI Light" RenderTransformOrigin="0.872,0.461" ToolTipService.ToolTip="Pick a database for AmiBroker to load. Make sure the Base Time Interval is correct in AmiBroker."/>
+                <Label x:Name="lblDataSetFilePicker" Content="Dataset:" HorizontalContentAlignment="Right" HorizontalAlignment="Right" Height="40" Margin="0,84,596,0" VerticalAlignment="Top" Width="90" FontSize="20" FontFamily="Segoe UI Light" RenderTransformOrigin="0.872,0.461" ToolTipService.ToolTip="Pick a dataset (.csv file) to load data into the database."/>
+                <Label x:Name="lblFormatFilePicker" Content="Format:" HorizontalContentAlignment="Right" HorizontalAlignment="Right" Height="40" Margin="0,129,596,0" VerticalAlignment="Top" Width="90" FontSize="20" FontFamily="Segoe UI Light" RenderTransformOrigin="0.872,0.461" ToolTipService.ToolTip="Pick a format that is compatible with the dataset. If stored in the default 'Format' folder in AmiBroker, the entire path is not needed - just the name of the format (ex: dataoriginal.format)."/>
+                <Label x:Name="lblProgramFolderPicker" Content="Program Folder:" HorizontalContentAlignment="Right" HorizontalAlignment="Right" Height="40" Margin="0,175,596,0" VerticalAlignment="Top" Width="146" FontSize="20" FontFamily="Segoe UI Light" RenderTransformOrigin="0.872,0.461" ToolTipService.ToolTip="Pick the folder where SpzmBroker will save the results."/>
+                <Label x:Name="lblMaxRules" Content="Maximum Rules:" FontFamily="Segoe UI Light" FontSize="20" HorizontalAlignment="Right" Height="36" Margin="0,232,118,0" VerticalAlignment="Top" Width="166" HorizontalContentAlignment="Right" ToolTipService.ToolTip="Maximum number of rules that can be appended into one rule. (ex: X AND Y OR Z = 3 rules)."/>
+                <Label x:Name="lblPopulationSize" Content="Population Size:" FontFamily="Segoe UI Light" FontSize="20" HorizontalAlignment="Right" Height="40" Margin="0,273,118,0" VerticalAlignment="Top" Width="166" HorizontalContentAlignment="Right" ToolTipService.ToolTip="Number of chromosomes(AFL models) per generation."/>
+                <Label x:Name="lblGenerations" Content="Number of Generations:" FontFamily="Segoe UI Light" FontSize="20" HorizontalAlignment="Right"  Height="40" Margin="0,314,118,0" VerticalAlignment="Top" Width="220" HorizontalContentAlignment="Right" ToolTipService.ToolTip="Number of generations to backtest."/>
+                <Label x:Name="lblProfitThresholdMinimum" Content="Save Results Higher Than $:" FontFamily="Segoe UI Light" FontSize="20" HorizontalAlignment="Right"  Height="40" Margin="0,406,172,0" VerticalAlignment="Top" Width="247" HorizontalContentAlignment="Right" ToolTipService.ToolTip="Chromosomes that generate profits higher than this amount (in dollars) will be saved in 'SavedChromosomes.txt'."/>
+                <Label x:Name="lblStopSize" Content ="Stop Size:" FontFamily="Segoe UI Light" FontSize="20" HorizontalAlignment="Left" Margin="203,231,0,0" VerticalAlignment="Top" Width="220" HorizontalContentAlignment="Right" ToolTipService.ToolTip="Stop if loss of Number of points"/>
+                <Label x:Name="lblPosSize" Content="PositionSize" FontFamily="Segoe UI Light" FontSize="20" HorizontalAlignment="Left" Margin="315,272,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.019,0.459"/>
+
+                <Button x:Name="btnDatabseFolderPicker" Content="..." HorizontalAlignment="Right" Height="40" Margin="0,39,47,0" VerticalAlignment="Top" Width="44" Click="btnDatabaseFolderPicker_Click" ToolTipService.ToolTip="Pick a database for AmiBroker to load. Make sure the Base Time Interval is correct in AmiBroker."/>
+                <Button x:Name="btnDatasetFilePicker" Content="..." HorizontalAlignment="Right" Height="40" Margin="0,84,47,0" VerticalAlignment="Top" Width="44" Click="btnDatasetFilePicker_Click" ToolTipService.ToolTip="Pick a dataset (.csv file) to load data into the database."/>
+                <Button x:Name="btnFormatFilePicker" Content="..." HorizontalAlignment="Right" Height="40" Margin="0,129,47,0" VerticalAlignment="Top" Width="44" Click="btnFormatFilePicker_Click" ToolTipService.ToolTip="Pick a format that is compatible with the dataset."/>
+                <Button x:Name="btnProgramFolderPicker" Content="..." HorizontalAlignment="Right" Height="40" Margin="0,174,47,0" VerticalAlignment="Top" Width="44" Click="btnProgramFolderPicker_Click" ToolTipService.ToolTip="Pick the folder where SpzmBroker will save the results."/>
+
+                <TextBox x:Name="txtDatabaseFolderPicker" HorizontalAlignment="Right" VerticalContentAlignment="Center" Height="40" Margin="0,39,96,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="500" FontSize="15" FontFamily="Segoe UI Light" TextChanged="txtDatabaseFolderPicker_TextChanged" ToolTipService.ToolTip="Pick a database for AmiBroker to load. Make sure the Base Time Interval is correct in AmiBroker."/>
+                <TextBox x:Name="txtDatasetFilePicker" HorizontalAlignment="Right" VerticalContentAlignment="Center" Height="40" Margin="0,84,96,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="500" FontSize="15" FontFamily="Segoe UI Light" TextChanged="txtDatasetFilePicker_TextChanged" ToolTipService.ToolTip="Pick a dataset (.csv file) to load data into the database."/>
+                <TextBox x:Name="txtFormatFilePicker" HorizontalAlignment="Right" VerticalContentAlignment="Center" Height="40" Margin="0,129,96,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="500" FontSize="15" FontFamily="Segoe UI Light" TextChanged="txtFormatFilePicker_TextChanged" ToolTipService.ToolTip="Pick a format that is compatible with the dataset. If stored in the default 'Format' folder in AmiBroker, the entire path is not needed - just the name of the format (ex: dataoriginal.format)."/>
+                <TextBox x:Name="txtProgramFolderPicker" HorizontalAlignment="Right" VerticalContentAlignment="Center" Height="40" Margin="0,174,96,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="500" FontSize="15" FontFamily="Segoe UI Light" TextChanged="txtProgramFolderPicker_TextChanged" ToolTipService.ToolTip="Pick the folder where SpzmBroker will save the results."/>
+                <TextBox x:Name="txtMaxRules" Text="3" PreviewTextInput="NumberValidationTextBox" MaxLength="4" FontSize="20" HorizontalAlignment="Right" VerticalContentAlignment="Center" Height="36" Margin="0,232,47,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="66" TextAlignment="Center" MaxLines="1" ToolTipService.ToolTip="Maximum number of rules that can be appended into one rule. (ex: [X AND Y OR Z] = 3 rules)." />
+                <TextBox x:Name="txtPopulationSize" Text="10" PreviewTextInput="NumberValidationTextBox" MaxLength="4" FontSize="20" HorizontalAlignment="Right" VerticalContentAlignment="Center" Height="36" Margin="0,273,47,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="66" TextAlignment="Center" MaxLines="1" ToolTipService.ToolTip="Number of chromosomes(AFL models) per generation."/>
+                <TextBox x:Name="txtGenerations" Text="10" PreviewTextInput="NumberValidationTextBox" MaxLength="4" FontSize="20" HorizontalAlignment="Right" VerticalContentAlignment="Center" Height="40" Margin="0,314,47,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="66" TextAlignment="Center" MaxLines="1" ToolTipService.ToolTip="Number of generations to backtest."/>
+                <RadioButton x:Name="rbtnLong" Content="Long Trades" IsChecked="True" HorizontalAlignment="Right" Margin="0,367,166,0" VerticalAlignment="Top" FontSize="16" Width="101" Height="34" FontFamily="Segoe UI Light" Checked="rbtnLong_Checked" ToolTipService.ToolTip="Generate long models."/>
+                <RadioButton x:Name="rbtnShort" Content="Short Trades" HorizontalAlignment="Right" Margin="0,367,47,0" VerticalAlignment="Top" RenderTransformOrigin="1.459,-1.4" FontSize="16" Width="107" Height="34" FontFamily="Segoe UI Light" Checked="rbtnShort_Checked" ToolTipService.ToolTip="Generate long models."/>
+                <TextBox x:Name="txtProfitFilterMinimum" Text="1" PreviewTextInput="NumberValidationTextBox" MaxLength="10" FontSize="20" HorizontalAlignment="Right" VerticalContentAlignment="Center" Height="40" Margin="0,406,47,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextAlignment="Center" MaxLines="1" ToolTipService.ToolTip="Chromosomes that generate profits higher than this amount (in dollars) will be saved in 'SavedChromosomes.txt'." TextChanged="txtProfitFilterMinimum_TextChanged"/>
+                <Button x:Name="xbtnStart" Content="Run GA" HorizontalAlignment="Right" Margin="0,485,19,0" VerticalAlignment="Top" Width="148" Height="42" Click="btnStart_Click" FontFamily="Segoe UI Light" FontSize="20" ToolTipService.ToolTip="Start the genetic program."/>
+                <Button x:Name="xbtnStop"  Content="Stop" HorizontalAlignment="Left" Margin="541,485,0,0" VerticalAlignment="Top" Width="141" Height="46" Click="xbtnStop_Click"/>
+                <TextBox x:Name="txtStopSize" Text="10"  Height="36" Margin="0,235,374,322" MaxLength="4" FontSize="20" HorizontalAlignment="Right" VerticalContentAlignment="Center" TextWrapping="Wrap"  Width="66"/>
+                <TextBox x:Name="txtPosSize" HorizontalAlignment="Left" Height="36" MaxLength="4" FontSize="20" Margin="449,277,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="66"/>
+                <DatePicker x:Name="DtStartDate" HorizontalAlignment="Left" Margin="147,235,0,0" VerticalAlignment="Top"/>
+                <DatePicker x:Name="DtEndDate" HorizontalAlignment="Left" Margin="147,292,0,0" VerticalAlignment="Top"/>
+                <Label Content="Start Date:" HorizontalAlignment="Left" Margin="61,235,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.146,1.593" Width="81"/>
+                <Label Content="End Date:" HorizontalAlignment="Left" Margin="61,291,0,0" VerticalAlignment="Top" Width="81"/>
+                <TextBlock x:Name="txtDisplay2" Background="#FFFBFBFB" Text="{Binding Results2}" FontSize="22" Foreground="Black" FontFamily="Segoe UI Light"  HorizontalAlignment="Left" Margin="0,446,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="58" Width="505"/>
+                <ComboBox x:Name="cmbIndicators" Text="Custom indicators" HorizontalAlignment="Left" Margin="167,331,0,0" VerticalAlignment="Top" Width="164">
+                    <CheckBox Content="kairi" Checked="CheckBox_Checked"/>
+                    <CheckBox Content="PercentRank" Checked="CheckBox_Checked_1"/>
+                    <CheckBox Content="KalmanFilter" Checked="CheckBox_Checked_3"/>
+                    <CheckBox Content="ITrend" Checked="CheckBox_Checked_2"/>
+
+                </ComboBox>
+                <TextBlock HorizontalAlignment="Left" Margin="10,409,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="460"><Run Text="Best chro"/><Span Background="White" Foreground="#FFA31515" FontSize="12.6666666666667" FontFamily="Consolas"><Run Text="Best chromosome will be shown here"/></Span><Run Text="mosome will be shown here"/></TextBlock>
+                <Label Content="Custom Inicators" HorizontalAlignment="Left" Margin="34,331,0,0" VerticalAlignment="Top"/>
+
+
+
+
+            </Grid>
+        </TabItem>
+
+        <TabItem Name="tabGeneticSettings">
+            <TabItem.Header>
+                <StackPanel Orientation="Vertical">
+                    <Image Height="40" Width="40" Source="images/dna.png"/>
+                    <TextBlock Text="Genetic Settings"/>
+                </StackPanel>
+            </TabItem.Header>
+        </TabItem>
+        <TabItem Name="tabAmiBrokerSettings">
+            <TabItem.Header>
+                <StackPanel Orientation="Vertical">
+                    <Image Height="40" Width="40" Source="images/gear.png"/>
+                    <TextBlock Text="AmiBroker Settings"/>
+                </StackPanel>
+            </TabItem.Header>
+        </TabItem>
+        <TabItem>
+            <TabItem.Header>
+                <StackPanel Orientation="Vertical">
+                    <Image Height="40" Width="40" Source="images/help.png" />
+                    <TextBlock Text="Information"/>
+                </StackPanel>
+            </TabItem.Header>
+            <Grid>
+                <Image x:Name="image" Source="images/SpzmBroker_named.png" HorizontalAlignment="Right" Height="317" Margin="-18,236,511,0" VerticalAlignment="Top" Width="322" ToolTipService.ToolTip="SpzmBroker 2016." RenderTransformOrigin="0.451,0.309"/>
+            </Grid>
+        </TabItem>
+    </TabControl>
+
+
+
+</Window>
